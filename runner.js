@@ -1,14 +1,17 @@
-const murderer = 'Professor Plum';
+const scenario = {
+  murderer: 'Miss Scarlet',
+  room: 'Kitchen',
+  weapon: 'Candle Stick'
+};
 
-const changeMurderer = function() {
-  murderer = 'Mrs. Peacock';
+const changeWeapon = function(newWeapon) {
+  scenario.weapon = newWeapon;
 }
 
-const declareMurderer = function() {
-  return `The murderer is ${murderer}.`;
+const declareWeapon = function() {
+  return `The weapon is the ${scenario.weapon}.`;
 }
 
-changeMurderer();
-const verdict = declareMurderer();
-// I predict that the murderer is Professor Plum
+changeWeapon('Revolver');
+const verdict = declareWeapon();
 console.log(verdict);

@@ -45,7 +45,7 @@ const declareMurderer = function() {
 
 changeMurderer();
 const verdict = declareMurderer();
-// I predict that the murderer is Professor Plum
+// I predict that the murderer is Professor Plum (There will be an error)
 console.log(verdict);
 ```
 
@@ -65,6 +65,7 @@ console.log('First Verdict: ', firstVerdict);
 
 const secondVerdict = `The murderer is ${murderer}.`;
 // I predict that the second murderer is still Mrs. Peacock.
+// GOT THAT WRONG - BECAUSE mrs.peacock is a block scope.
 console.log('Second Verdict: ', secondVerdict);
 ```
 
@@ -82,7 +83,9 @@ const declareAllSuspects = function() {
 
 const suspects = declareAllSuspects();
 console.log(suspects);
+// the suspects will be miss Scarlet, Professor Plum and Colonel Mustard
 console.log(`Suspect three is ${suspectThree}.`);
+// suspect three will be Mrs. Peacock
 ```
 
 #### Episode 5
@@ -104,6 +107,7 @@ const declareWeapon = function() {
 
 changeWeapon('Revolver');
 const verdict = declareWeapon();
+// The weapon is a revolver
 console.log(verdict);
 ```
 
