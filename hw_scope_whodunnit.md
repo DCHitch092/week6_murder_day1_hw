@@ -204,7 +204,7 @@ const declareWeapon = function() {
 
 changeScenario();
 const verdict = declareWeapon();
-// candlestick...? 
+// candlestick
 console.log(verdict);
 ```
 
@@ -222,6 +222,7 @@ const declareMurderer = function() {
 }
 
 const verdict = declareMurderer();
+// Professor Plum...? 
 console.log(verdict);
 ```
 
