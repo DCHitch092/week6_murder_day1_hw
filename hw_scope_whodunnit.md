@@ -132,6 +132,8 @@ const declareMurderer = function () {
 
 changeMurderer();
 const verdict = declareMurderer();
+
+// the murderer is mrs. white?
 console.log(verdict);
 ```
 
