@@ -204,6 +204,7 @@ const declareWeapon = function() {
 
 changeScenario();
 const verdict = declareWeapon();
+// candlestick...? 
 console.log(verdict);
 ```
 
